@@ -63,7 +63,7 @@ T12_im = conv2d(np.real(T12_im),kernel)
 T12_re = conv2d(np.real(T12_re),kernel)
 T22 = conv2d(np.real(T22),kernel)
 
-[row,col] = np.shape(C11)
+[row,col] = np.shape(T11)
 
 alpha_image = np.zeros([row,col])
 theta_image = np.zeros([row,col])
